@@ -1137,9 +1137,9 @@ This section is about expanding ReactTable using Higher Order Components/Functio
 
 This version of ReactTable supports virtualization, it uses react-window to make it work. Simply pass the following properties to the ReactTable to have its rows virtualized:
 
-- useVirtualization: boolean
-- virtualizationHeight: number (the height of your ReactTable's content)
-- virtualizationRowHeight: number (the height of a single row inside your ReactTable)
+- `useVirtualization` boolean
+- `virtualizationHeight` number (the height of your ReactTable's content)
+- `virtualizationRowHeight` number (the height of a single row inside your ReactTable)
 
 This is especially useful if you have large datasets that you want to display inside a single table.
 
