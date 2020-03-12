@@ -1465,18 +1465,18 @@ To suggest a feature, create an issue if it does not already exist.
 If you would like to help develop a suggested feature follow these steps:
 
 - Fork this repo
-- Install dependencies with `$ yarn`
-- Auto-build files as you edit with `$ yarn run watch`
+- Install dependencies with `$ npm install`
+- Auto-build files as you edit with `$ npm run watch`
 - Implement your changes to files in the `src/` directory
-- Run the <a href="https://github.com/tannerlinsley/react-story">React Story</a> locally with `$ yarn run docs`
+- Run the <a href="https://github.com/tannerlinsley/react-story">React Story</a> locally with `$ npm run docs`
 - View changes as you edit `docs/src`
 - Submit PR for review
 
 #### Scripts
 
-- `$ yarn run watch` Watches files and builds via babel
-- `$ yarn run docs` Runs the storybook server
-- `$ yarn run test` Runs the test suite
+- `$ npm run watch` Watches files and builds via babel
+- `$ npm run docs` Runs the storybook server
+- `$ npm run test` Runs the test suite
 
 ## Used By
 
