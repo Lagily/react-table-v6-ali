@@ -158,8 +158,8 @@
 - [Multi-Sort](#multi-sort)
 - [Filtering](#filtering)
 - [Component Overrides](#component-overrides)
-- [HOC Extensions](#hoc-extensions)
 - [Virtualization](#virtualization)
+- [HOC Extensions](#hoc-extensions)
 - [Contributing](#contributing)
 - [Scripts](#scripts)
 - [Used By](#used-by)
@@ -1129,10 +1129,6 @@ Object.assign(ReactTableDefaults, {
 
 If you choose to change the core components React-Table uses to render, you must make sure your replacement components consume and utilize all of the supplied and inherited props that are needed for that component to function properly. We would suggest investigating <a href="https://github.com/react-tools/react-table/blob/master/src/index.js" target="\_parent">the source</a> for the component you wish to replace.
 
-# HOC Extensions
-
-This section is about expanding ReactTable using Higher Order Components/Functions.
-
 # Virtualization
 
 This version of ReactTable supports virtualization, it uses react-window to make it work. Simply pass the following properties to the ReactTable to have its rows virtualized:
@@ -1142,6 +1138,10 @@ This version of ReactTable supports virtualization, it uses react-window to make
 - `virtualizationRowHeight` number (the height of a single row inside your ReactTable)
 
 This is especially useful if you have large datasets that you want to display inside a single table.
+
+# HOC Extensions
+
+This section is about expanding ReactTable using Higher Order Components/Functions.
 
 ## Covered in this section
 
