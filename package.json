@@ -1,6 +1,7 @@
 {
   "name": "sgkb-table",
-  "version": "1.0.0",
+  "version": "1.0.3",
+  "types": "types/index.d.ts",
   "description": "A fast, lightweight, opinionated table and datagrid built on React. Extended to allow virtualization.",
   "license": "MIT",
   "homepage": "https://github.com/Lagily/react-table-v6-ali#readme",
@@ -23,7 +24,8 @@
     "react-table.js",
     "react-table.min.js",
     "react-table.css",
-    "media/*.png"
+    "media/*.png",
+    "types"
   ],
   "scripts": {
     "build:cjs": "babel src --out-dir lib --source-maps inline --copy-files",
@@ -73,7 +75,7 @@
     "onchange": "^3.0.2",
     "postcss-cli": "^2.6.0",
     "prop-types": "^15.6.0",
-    "react": "^16.3.2",
+    "react": "^16.13.1",
     "react-dom": "^16.3.2",
     "react-json-tree": "^0.10.9",
     "rimraf": "^2.6.1",
